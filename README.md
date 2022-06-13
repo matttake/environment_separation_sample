@@ -7,7 +7,7 @@ Firestoreの環境を分けた場合の挙動確認サンプルアプリ
 本番用と開発用の2つを準備する(立ち上げる)
 
 ## ios: 
-以下のフォルダ配下に各環境のFirestoreのgoogle-servicesファイルを追加(語尾修正)
+以下のフォルダ配下に各環境のFirestoreのgoogle-servicesファイルを追加(語尾修正)  
 ios/Runner/GoogleService-info-dev.plist  
 ios/Runner/GoogleService-info-release.plist  
 xcodeを開いて、Runner/Build Phases/Run Script/のShellスクリプトを環境分け用のものに上書き  
